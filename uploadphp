@@ -1,0 +1,4 @@
+<?php
+
+StargetPath = "uploads/" . basename($_FILES["inpFile"]["name"]);
+move_uploaded_files($_FILES["inpFile"]["tmp_name"], $targetPath);
